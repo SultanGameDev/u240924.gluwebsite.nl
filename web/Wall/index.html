@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="muur4"></div>
+
+
+
+<script>
+        for (let index = 0; index < 10; index++) {
+
+          var rij = document.createElement("div");
+          rij.className = "rij";
+
+          for (let steenindex = 0; steenindex < 5; steenindex++) {
+            var steen = document.createElement("div");
+            steen.className = "steen";
+            rij.appendChild(steen);
+          }
+
+          document.getElementById("muur4").appendChild(rij);
+        }
+      </script>
+
+
+    <!-- <div id="muur">
+        <div class="rij">
+            <div id="steen"></div>
+            <div id="steen"></div>
+            <div id="steen"></div>
+            <div id="steen"></div>
+            <div id="steen"></div>
+        </div>
+        <div class="rij">
+            <div id="steen"></div>
+            <div id="steen"></div>
+            <div id="steen"></div>
+            <div id="steen"></div>
+            <div id="steen"></div>
+        </div>
+        <div class="rij">
+            <div id="steen"></div>
+            <div id="steen"></div>
+            <div id="steen"></div>
+            <div id="steen"></div>
+            <div id="steen"></div>
+        </div>
+        <div class="rij">
+            <div id="steen"></div>
+            <div id="steen"></div>
+            <div id="steen"></div>
+            <div id="steen"></div>
+            <div id="steen"></div>
+        </div>
+    </div> -->
+</body>
+</html>

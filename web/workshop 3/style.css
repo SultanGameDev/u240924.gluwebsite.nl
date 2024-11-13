@@ -1,0 +1,27 @@
+#header {
+    background-image: url("http://jos.gluwebsite.nl/lessen/web/blue.png");
+    background-position: center;
+    height: 150px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20pt;
+    color: aliceblue;
+}
+
+#content {
+    background-color: gray;
+    height: 500px;
+    width: 960px;
+   margin-left: 280px;
+   
+}
+
+#footer {
+    background-color: lightgray;
+    height: 100px;
+    width: 960px;
+    margin-left: 280px;
+    
+}
+

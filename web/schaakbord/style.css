@@ -1,0 +1,75 @@
+#schaakbord {
+   background-color: black;
+   margin: 50px;
+   height: 800px;
+   width: 800px;
+
+}
+
+#schaakbord #div1 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: #000000;
+    
+}
+
+#schaakbord #div2 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: #c9c9c9;
+}
+
+#schaakbord #div3 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: #000000;
+}
+
+#schaakbord #div4 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: #c9c9c9;
+}
+#schaakbord #div5 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: #000000;
+}
+
+#schaakbord #div6 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: #c9c9c9;
+}
+#schaakbord #div7 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: #000000;
+}
+
+#schaakbord #div8 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: #c9c9c9;
+}
+#schaakbord #div9 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: #000000;
+}
+
+#schaakbord #div10 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-color: #c9c9c9;
+}
