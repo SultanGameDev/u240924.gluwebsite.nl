@@ -1,3 +1,49 @@
-#body {
-    background-repeat: no-repeat;
+
+
+#container{
+    display: flex;
+    margin-top: 155px;
+    margin-left: 130px;
+    width: 960px;
+    height: 335px;
+    border: 5px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#left{
+
+    width: 363px;
+    background-color: #f2f2f2;
+    height: auto;
+    border: 2px solid black;
+}
+
+#middle {
+    width: 875px;
+    height: auto;
+    background-color: rgb(0, 51, 255);
+    padding: 5px;
+    border: 2px solid black;
+    grid-area: TrainInfo;
+}
+
+#right{
+    width:200px;
+    height: auto;
+    background-color: rgb(0, 51, 255);
+    border: 2px solid black;
+}
+
+#time { grid-area: time; }
+#traintype { grid-area: traintype; }
+#destination { grid-area: destination; }
+#route { grid-area: route; }
+#next { grid-area: next; }
+
+#grid-container {
+  grid-template-areas:
+    'time traintype'
+    'destination destination'
+    'route route'
+    'next next';
 }
