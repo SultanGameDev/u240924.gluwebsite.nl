@@ -1,47 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-  'header header header header header header'
-  'menu main main main right right'
-  'menu footer footer footer footer footer';
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
-
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-</style>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-<h1>The grid-area Property</h1>
-
-<p>You can use the <em>grid-area</em> property to name grid items.</p>
-<p>You can refer to the name when you set up the grid layout, by using the <em>grid-template-areas</em> property on the grid container.</p>
-<p>This grid layout contains six columns and three rows:</p>
-
-<div class="grid-container">
-  <div class="item1">Header</div>
-  <div class="item2">Menu</div>
-  <div class="item3">Main</div>  
-  <div class="item4">Right</div>
-  <div class="item5">Footer</div>
-</div>
-
+  <style>
+    body {
+      background-image: url('web_20190614-084245_SV7704-1-e1620722339187.webp');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      padding: 250px;
+      margin-right: 60px;
+    }
+  </style>
+  <div id="container">
+    <div id="left">
+      <div class="clock">
+        <div class="clock-face">
+          <div class="number number1">1</div>
+          <div class="number number2">2</div>
+          <div class="number number3">3</div>
+          <div class="number number4">4</div>
+          <div class="number number5">5</div>
+          <div class="number number6">6</div>
+          <div class="number number7">7</div>
+          <div class="number number8">8</div>
+          <div class="number number9">9</div>
+          <div class="number number10">10</div>
+          <div class="number number11">11</div>
+          <div class="number number12">12</div>
+          <div class="hand hour-hand"></div>
+          <div class="hand minute-hand"></div>
+          <div class="hand second-hand"></div>
+        </div>
+      </div>
+    </div>
+    <div id="middle">
+      <div class="infoBoard">
+        <div class="item1">1 minuut</div>
+        <div class="item2">Intercity</div>
+        <div class="item3">Heerlen</div>
+        <div class="item4">Via</div>
+        <div class="item5">Hierna/next: 08:54 IC Venlo</div>
+      </div>
+    </div>
+    <div id="right">
+      <div id="spoorInfo">
+        <div class="item6">spoor</div>
+        <div class="item7">18</div>
+        <div class="item8">b</div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
