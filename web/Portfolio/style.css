@@ -1,0 +1,22 @@
+#header{
+    border: 5px solid black;
+}
+#content{
+    height: 900px;
+}
+#footer{
+    background-color: gray;
+    color: aliceblue;
+    height: 100px;
+    width: 100%;
+
+}
+
+#container{
+background-color: black;
+background-image: url("images/Art\ Render\ GIF\ by\ time.gif");
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: center;
+}
+
